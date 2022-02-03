@@ -1,0 +1,53 @@
+.productPrev {
+    width: 100%;
+    position: relative;
+  }
+  
+  .featuredDataT{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  
+    color:white;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .featuredDataH{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  
+    color:white;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .featuredDataH > i{
+    color: red;
+    animation: beat 1s infinite;
+  }
+  
+  @keyframes beat {
+    0% {
+      transform: scale(1,1);
+    }
+  
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  .featuredDataH > p{
+    margin-top: 16px;
+  }
+  
+  .productPrev > img {
+    width: 100%;
+  }
